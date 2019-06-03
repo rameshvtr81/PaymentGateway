@@ -1,0 +1,166 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Ramesh\\Desktop\\Code\\code level\\paymentGatewayExample\\Paymentgateway.test\\Paymentgateway.test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ramesh\\Desktop\\Code\\code level\\paymentGatewayExample\\Paymentgateway.test\\Paymentgateway.test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ramesh\\Desktop\\Code\\code level\\paymentGatewayExample\\Paymentgateway.test\\Paymentgateway.test.csproj",
+        "projectName": "Paymentgateway.test",
+        "projectPath": "C:\\Users\\Ramesh\\Desktop\\Code\\code level\\paymentGatewayExample\\Paymentgateway.test\\Paymentgateway.test.csproj",
+        "packagesPath": "C:\\Users\\Ramesh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ramesh\\Desktop\\Code\\code level\\paymentGatewayExample\\Paymentgateway.test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ramesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\Ramesh\\Desktop\\Code\\code level\\paymentGatewayExample\\PaymentGatewayApp\\PaymentGatewayApp.csproj": {
+                "projectPath": "C:\\Users\\Ramesh\\Desktop\\Code\\code level\\paymentGatewayExample\\PaymentGatewayApp\\PaymentGatewayApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Ramesh\\Desktop\\Code\\code level\\paymentGatewayExample\\PaymentGatewayApp\\PaymentGatewayApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ramesh\\Desktop\\Code\\code level\\paymentGatewayExample\\PaymentGatewayApp\\PaymentGatewayApp.csproj",
+        "projectName": "PaymentGatewayApp",
+        "projectPath": "C:\\Users\\Ramesh\\Desktop\\Code\\code level\\paymentGatewayExample\\PaymentGatewayApp\\PaymentGatewayApp.csproj",
+        "packagesPath": "C:\\Users\\Ramesh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ramesh\\Desktop\\Code\\code level\\paymentGatewayExample\\PaymentGatewayApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ramesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.7.3, )"
+            },
+            "Hangfire.MySql.Core": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Hangfire.MySqlStorage.MysqlConnector": {
+              "target": "Package",
+              "version": "[1.0.5.1, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.9, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
